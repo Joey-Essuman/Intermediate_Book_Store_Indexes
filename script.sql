@@ -107,7 +107,6 @@ ORDER BY tablename, indexname;
 
 DROP INDEX IF EXISTS books_author_idx;
 
-DROP INDEX IF EXISTS orders_customer_id_quantity;
 
 CREATE INDEX customers_last_name_first_name_email_address ON customers (last_name, first_name, email_address);
 
